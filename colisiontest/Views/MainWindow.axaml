@@ -1,0 +1,15 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:colisiontest.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:colisiontest.Views"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="colisiontest.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="colisiontest">
+    <Canvas>
+        <Rectangle x:Name="r1" Width="100" Height="100" Fill="Aqua" Canvas.Bottom="200" Canvas.Left="0"></Rectangle>
+        <Rectangle x:Name="r2" Width="100" Height="100" Fill="Blue" Canvas.Bottom="200" Canvas.Left="300"></Rectangle>
+    </Canvas>
+</Window>
